@@ -1,5 +1,9 @@
 # govad
 
+[![CI](https://github.com/zserge/govad/actions/workflows/ci.yml/badge.svg)](https://github.com/zserge/govad/actions/workflows/ci.yml)
+[![GoDoc](https://pkg.go.dev/badge/github.com/zserge/govad.svg)](https://pkg.go.dev/github.com/zserge/govad)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zserge/govad)](https://goreportcard.com/report/github.com/zserge/govad)
+
 Pure Go voice activity detection using the [Silero VAD](https://github.com/snakers4/silero-vad) neural network.
 
 No CGo. No ONNX runtime. No external dependencies.
