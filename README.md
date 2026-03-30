@@ -2,9 +2,9 @@
 
 Pure Go voice activity detection using the [Silero VAD](https://github.com/snakers4/silero-vad) neural network.
 
-**No CGO. No ONNX runtime. No external dependencies.**
+No CGo. No ONNX runtime. No external dependencies.
 
-The model weights are embedded in the binary — `go get` and you're done.
+The model weights are embedded in the binary.
 
 ## Features
 
