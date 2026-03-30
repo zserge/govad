@@ -43,4 +43,6 @@ jobs:
 
       - name: Build example
         working-directory: examples/live-vad
-        run: go build -o /dev/null .
+        run: |
+          go mod tidy
+          go build -o /dev/null .
